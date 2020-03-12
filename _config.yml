@@ -1,11 +1,13 @@
 # Site settings
+plugins:
+  - jekyll-seo-tag
 title: Bhagwat Garg
 description: IIT Kanpur IITK
 author: bhagwat 
 # baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://bhagwatgarg.github.io"
-plugins:
-  - jekyll-sitemap
+#plugins:
+#  - jekyll-sitemap
 # User settings
 username: Bhagwat Garg
 user_description: I am. #a nomad Software Engineer, always searching for the next challenge; no task is too scary nor too difficult. Lately I have been immersed in the <b>crypto-world</b> working for Radix, a London based startup trying to create the next massive scalable DLT. I'm one of the two guys behind all the JS related stuff. Visit my blog here <a href="https://mauriciourraco.com" target="_blank">https://mauriciourraco.com</a>
@@ -20,5 +22,3 @@ google-analytics:
   id: ""
 
 exclude: ['package.json', 'src' , 'node_modules']
-plugins:
-  - jekyll-seo-tag
