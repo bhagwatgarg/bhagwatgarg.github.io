@@ -2,8 +2,8 @@
 plugins:
   - jekyll-seo-tag
 title: Bhagwat Garg
-description: IIT Kanpur IITK
-author: bhagwat 
+description: IIT Kanpur
+author: bhagwatgarg
 # baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://bhagwatgarg.github.io"
 #plugins:
