@@ -7,17 +7,6 @@ import {Button as AntButton} from 'antd'
 const ProjectItem = (props) => {
 	console.log(`url(${props.image})`);
 	return (
-		// <Card
-
-		//   className='project-item'
-		//   image='../assets/achievements-backgroung.jpg'
-		// 	header={props.title}
-		// 	description={props.description}
-		//   // href={"#"}
-		//   // target='_blank'
-		//   raised
-		//   key={props.title}
-		// />
 		<section className="project-item">
 			<div
 				className="project-item-image"
