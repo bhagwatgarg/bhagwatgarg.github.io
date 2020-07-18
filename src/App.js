@@ -55,7 +55,6 @@ const App = (props) => {
 				<Home />
 				<About />
 				<Interests />
-				{/* <Achievements /> */}
 				<Projects />
 				<Connect setSideDrawer={setSideDrawer} />
 			</div>

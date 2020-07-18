@@ -17,13 +17,6 @@ const Home = (props) => {
 				<h1>Bhagwat Garg</h1>
 			</div>
 			<Button icon id='main-btn' onClick={onClickHandler}>
-			{/* <Icon
-				id="upArrowIcon"
-				className="up-icon"
-				name="angle double up"
-				color="grey"
-				size="huge"
-			/> */}
 			<DoubleLeftOutlined rotate={90} style={{fontSize:'max(4rem , 4vw)',color:'white', fontWeight:'bold'}} />
 			</Button>
 			

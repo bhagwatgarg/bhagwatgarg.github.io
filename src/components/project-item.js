@@ -46,7 +46,6 @@ const ProjectItem = (props) => {
 					className="project-item-button"
 					size='massive'
 				>
-					{/* <Icon name="github" size="large"  /> */}
 					<GithubFilled style={{fontSize:'max(2vw , 2rem)'}} />
 					<h6>View on Github</h6>
 				</Button>
