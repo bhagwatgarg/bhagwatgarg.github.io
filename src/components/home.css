@@ -38,19 +38,19 @@
 	font-family: "Anton", sans-serif;
   font-weight: lighter;
   color: white;
-	font-size: 5rem;
+	font-size: max(5vw , 5rem );
 }
 .intro h4{
   margin-top: 0;
-  font-size: 3rem;
+  font-size: max(3vw , 3rem);
   color: burlywood;
 }
 
-@media (max-width: 500px) {
+/* @media (max-width: 500px) {
 	.intro h1 {
 		font-size: 3.5rem;
   }
   .intro h4{
     font-size: 2rem;
   }
-}
+} */

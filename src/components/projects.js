@@ -3,6 +3,7 @@ import './shared.css';
 import "./projects.css";
 import ProjectItem from "./project-item";
 import discussionImage from '../assets/discussion-forum.png';
+import schedulerImage from '../assets/favicon.png';
 
 const Projects = (props) => {
 	return (
@@ -12,6 +13,8 @@ const Projects = (props) => {
 				<ProjectItem
 					title="Scheduler"
 					description={"A web app to manage all your calendars at one place"}
+					repo='scheduler-frontend'
+					image={schedulerImage}
 				/>
         <ProjectItem
 					title="Discussion Forum"

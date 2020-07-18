@@ -1,5 +1,6 @@
 import React from "react";
 import { Icon, Button } from "semantic-ui-react";
+import {DoubleLeftOutlined} from '@ant-design/icons';
 
 import "./home.css";
 import handleItemClick from "../util/scroll";
@@ -16,13 +17,14 @@ const Home = (props) => {
 				<h1>Bhagwat Garg</h1>
 			</div>
 			<Button icon id='main-btn' onClick={onClickHandler}>
-			<Icon
+			{/* <Icon
 				id="upArrowIcon"
 				className="up-icon"
 				name="angle double up"
 				color="grey"
 				size="huge"
-			/>
+			/> */}
+			<DoubleLeftOutlined rotate={90} style={{fontSize:'max(4rem , 4vw)',color:'white', fontWeight:'bold'}} />
 			</Button>
 			
 		</div>

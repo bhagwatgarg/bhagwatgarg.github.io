@@ -1,6 +1,7 @@
 import React, { useEffect, useState, useContext } from "react";
 import "./connect.css";
 import { Icon, Button } from "semantic-ui-react";
+import {FacebookFilled, GithubFilled, InstagramFilled, MailFilled} from '@ant-design/icons'
 import HeightContext from "../util/change-height";
 
 const Connect = (props) => {
@@ -8,6 +9,8 @@ const Connect = (props) => {
   let [height, setHeight]=useState(vp);
   let [init, setInit]=useState(false);
   let heightContext=useContext(HeightContext);
+
+  const style={ fontSize: 'max(2vw , 2rem)', margin: '1rem', color:'white'};
 
   useEffect(()=>{
     if(init)return;
@@ -38,13 +41,19 @@ const Connect = (props) => {
         <h4>E-213, Hall 13</h4>
         <h4>IIT Kanpur</h4>
       </article>
-      <section className='social-icons'>
+      {/* <section className='social-icons'>
         
-        <Button as='a' target="_blank" href='https://www.facebook.com/gargbhagwat' icon color='facebook' circular><Icon name='facebook f' size='large'/></Button>
+        <Button as='a' target="_blank" href='https://www.facebook.com/gargbhagwat' icon color='facebook' circular><FacebookOutlined style={{fontSize:'max(1rem , 1vw)'}} /></Button>
         <Button as='a' target="_blank" href='https://www.github.com/bhagwatgarg' icon color='black' circular><Icon name='github' size='large'/></Button>
         <Button as='a' target="_blank" href='mailto:b.garg2013@gmail.com' icon color='red' circular><Icon name='mail' size='large'/></Button>
         <Button as='a' target="_blank" href='https://www.instagram.com/bhagwatgarg' icon color='instagram' circular><Icon name='instagram' size='large'/></Button>
-      </section>
+      </section> */}
+      <div className='social'>
+        <a target='_blank' href='https://www.facebook.com/gargbhagwat'><FacebookFilled style={style}  /></a>
+        <a target='_blank' href='https://www.github.com/bhagwatgarg' ><GithubFilled style={style} /></a>
+        <a target='_blank' href='https://www.instagram.com/bhagwatgarg' ><InstagramFilled style={style} /></a>
+        <a target='_blank' href='mailto:b.garg2013@gmail.com' ><MailFilled style={style} /></a>
+      </div>
       </div>
 		</section>
 	);

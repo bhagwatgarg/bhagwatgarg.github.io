@@ -17,11 +17,11 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 80vw;
-  max-width: 500px;
-  height: 80vh;
+  max-width: 80vw;
+  /* max-width: 500px; */
+  max-height: 80vh;
   min-height: 500px;
-  max-height: 500px;
+  /* max-height: 500px; */
   background-color: steelblue;
   padding: 10vh 10vw 10vh 10vw;
 }
@@ -41,7 +41,7 @@
 }
 
 .contact-card h4{
-  font-size: 2rem;
+  font-size: max(2rem , 2vw);
 }
 
 .address{
@@ -52,4 +52,16 @@
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+}
+
+.social{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.social svg:hover{
+  color: black;
+  transition: color 0.2s ease-in;
 }

@@ -10,6 +10,7 @@
 }
 
 .section-head {
+	/* font-size: max(5rem , 5vw); */
   min-height: unset;
 	text-align: left;
 	padding-left: 2%;
@@ -46,17 +47,17 @@
 	height: 30vw;
 	min-height: 250px;
 	min-width: 250px;
-	max-width: 300px;
-	max-height: 300px;
+	/* max-width: 300px;
+	max-height: 300px; */
 	border: 2px solid whitesmoke;
 	border-radius: 50%;
 }
 .main-section-para {
 	color: white;
 	/* display: inline-block; */
-	width: 100%;
-	max-width: 1000px;
-	font-size: 3rem;
+	width: 95%;
+	/* max-width: 1000px; */
+	font-size: max(3rem , 3vw);
   text-align: justify;
   
 }
@@ -64,13 +65,13 @@
 
 @media (max-width: 800px) {
 	.main-section-para {
-		font-size: 2.2rem;
+		font-size: max(2.2rem , 2.2vw);
 	}
 }
 
 @media (max-width: 420px) {
 	.main-section-para {
-		font-size: 2rem;
+		font-size: max( 2vw , 2rem);
 	}
 }
 

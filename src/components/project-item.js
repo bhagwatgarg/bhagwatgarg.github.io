@@ -1,6 +1,8 @@
 import React from "react";
 import { Icon, Button, Divider } from "semantic-ui-react";
 import "./project-item.css";
+import {GithubFilled} from '@ant-design/icons';
+import {Button as AntButton} from 'antd'
 
 const ProjectItem = (props) => {
 	console.log(`url(${props.image})`);
@@ -30,9 +32,11 @@ const ProjectItem = (props) => {
 				}
 			></div>
 			<div className="project-item-content">
+			<div className="project-data">
 				<h1 className="project-item-title">{props.title}</h1>
 				<Divider fitted />
-				<p className="project-item-desc">{props.description}</p>
+				
+				<p className="project-item-desc">{props.description}</p></div>
 				<Button
 					as="a"
 					target="_blank"
@@ -40,11 +44,14 @@ const ProjectItem = (props) => {
 					icon
 					color="black"
 					className="project-item-button"
+					size='massive'
 				>
-					<Icon name="github" size="large" />
+					{/* <Icon name="github" size="large"  /> */}
+					<GithubFilled style={{fontSize:'max(2vw , 2rem)'}} />
 					<h6>View on Github</h6>
 				</Button>
-			</div>
+				</div>
+			
 		</section>
 	);
 };
