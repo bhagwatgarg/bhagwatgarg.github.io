@@ -1,0 +1,9 @@
+#achievements{
+  background-image: url('../assets/achievements-backgroung.jpg');
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: multiply;
+  background-color: darkgoldenrod;
+  width: 100%;
+  min-height: 100vh;
+}

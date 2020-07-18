@@ -1,0 +1,29 @@
+#projects{
+  background-image: url('../assets/projects-background.jpg');
+  background-position: left bottom;
+  background-size: cover;
+  background-blend-mode: multiply;
+  background-color: lightblue;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+}
+
+.projects-list{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* .projects-list{
+  padding: 0;
+  padding-left: 2%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: space-between;
+} */

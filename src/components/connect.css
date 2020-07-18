@@ -1,0 +1,55 @@
+#connect-with-me{
+  background-image: url('../assets/connect-background.jpg');
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: multiply;
+  background-color: lightslategrey;
+  width: 100%;
+  height: 100vh;
+  min-height: 625px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* max-height: 500px; */
+}
+
+.contact-card{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 80vw;
+  max-width: 500px;
+  height: 80vh;
+  min-height: 500px;
+  max-height: 500px;
+  background-color: steelblue;
+  padding: 10vh 10vw 10vh 10vw;
+}
+
+@media(min-width: 625px){
+  .contact-card{
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
+
+@media(min-height: 625px){
+  .contact-card{
+    padding-bottom: 60px;
+    padding-top: 60px;
+  }
+}
+
+.contact-card h4{
+  font-size: 2rem;
+}
+
+.address{
+  text-align: right;
+}
+
+.social-icons{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}

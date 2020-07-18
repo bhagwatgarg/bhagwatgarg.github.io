@@ -1,0 +1,16 @@
+#skills-and-interests{
+  background-image: url('../assets/skills-back.webp');
+  background-position: top !important;
+  background-color: darkgoldenrod;
+}
+
+/* .skills-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+} */
+
+.skills-image{
+  background-image: url('../assets/skills.png');
+}

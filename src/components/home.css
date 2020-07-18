@@ -1,0 +1,56 @@
+.background {
+	/* background-image: url("../assets/Code\ by\ mercurytuts\ on\ DeviantArt.jpg"); */
+	background-image: url('../assets/main-background.png');
+  background-color: burlywood;
+  background-blend-mode: multiply;
+	width: 100%;
+	height: 100vh;
+	background-size: cover;
+	background-position: right;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: stretch;
+	min-height: 400px;
+}
+
+#main-btn{
+	background-color: unset;
+}
+
+#upArrowIcon {
+	align-self: center;
+}
+
+.intro {
+	margin: auto;
+	align-self: center;
+	margin-left: 2%;
+	color: white;
+	display: block;
+	width: auto;
+	height: fit-content;
+}
+
+.intro h1,
+.intro h4 {
+	font-family: "Anton", sans-serif;
+  font-weight: lighter;
+  color: white;
+	font-size: 5rem;
+}
+.intro h4{
+  margin-top: 0;
+  font-size: 3rem;
+  color: burlywood;
+}
+
+@media (max-width: 500px) {
+	.intro h1 {
+		font-size: 3.5rem;
+  }
+  .intro h4{
+    font-size: 2rem;
+  }
+}
