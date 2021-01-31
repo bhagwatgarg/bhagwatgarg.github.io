@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "197f397ef770f58094086243f5fa6578",
+    "revision": "e07b15ec9b58e17b2f8e203204f3d0d2",
     "url": "/index.html"
   },
   {
-    "revision": "d429c805709d65ca3f2c",
+    "revision": "0923f6bfd4019bc61afa",
     "url": "/static/css/2.4c4477be.chunk.css"
   },
   {
-    "revision": "1fa35e77a1e172f258b7",
-    "url": "/static/css/main.05a33dd5.chunk.css"
+    "revision": "bc13c68ef3ec27819635",
+    "url": "/static/css/main.0054199f.chunk.css"
   },
   {
-    "revision": "d429c805709d65ca3f2c",
-    "url": "/static/js/2.9d15fb03.chunk.js"
+    "revision": "0923f6bfd4019bc61afa",
+    "url": "/static/js/2.9dfa8ec4.chunk.js"
   },
   {
     "revision": "4d47ffde3dc69784e8e23fd910817ef8",
-    "url": "/static/js/2.9d15fb03.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.9dfa8ec4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1fa35e77a1e172f258b7",
-    "url": "/static/js/main.08418137.chunk.js"
+    "revision": "bc13c68ef3ec27819635",
+    "url": "/static/js/main.828078e8.chunk.js"
   },
   {
     "revision": "938eb7ce1c61cb74e5cb",
@@ -58,5 +58,13 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d27152afefc64c6f0aa7eec9da5b5a8c",
     "url": "/static/media/skills.d27152af.png"
+  },
+  {
+    "revision": "69ced80173b4e1c7e209471bb7550406",
+    "url": "/static/media/steganography-tool.69ced801.png"
+  },
+  {
+    "revision": "b032ca99f98afa4e0b307d477b87c3f9",
+    "url": "/static/media/sudoku-solver.b032ca99.png"
   }
 ]);
