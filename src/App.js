@@ -29,7 +29,7 @@ const App = (props) => {
 	useEffect(() => {
 		if (init) return;
 		init = true;
-		if (window.innerWidth <= 900) setSideDrawer(true);
+		if (window.innerWidth <= 1100) setSideDrawer(true);
 		window.onscroll = () => {
 			const navBar = document.getElementById("nav-bar");
 			const head = document.getElementById("nav-bar-header");

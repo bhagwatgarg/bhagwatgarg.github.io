@@ -5,7 +5,7 @@ import {GithubFilled} from '@ant-design/icons';
 import {Button as AntButton} from 'antd'
 
 const ProjectItem = (props) => {
-	console.log(`url(${props.image})`);
+	// console.log(`url(${props.image})`);
 	return (
 		<section className="project-item">
 			<div
@@ -24,7 +24,7 @@ const ProjectItem = (props) => {
 			<div className="project-data">
 				<h1 className="project-item-title">{props.title}</h1>
 				<Divider fitted />
-				
+
 				<p className="project-item-desc">{props.description}</p></div>
 				<Button
 					as="a"
@@ -39,7 +39,7 @@ const ProjectItem = (props) => {
 					<h6>View on Github</h6>
 				</Button>
 				</div>
-			
+
 		</section>
 	);
 };

@@ -29,6 +29,8 @@ const NavBar = (props) => {
 		setActiveItem(str.id);
 	};
 
+  const resumeURL='/Resume_Bhagwat_Garg.pdf';
+
 	const items = sections.map((val) => (
 		<Menu.Item
 			name={val}
@@ -37,6 +39,15 @@ const NavBar = (props) => {
 			onClick={() => handleClick(val)}
 		/>
 	));
+
+  items.push((
+  <Menu.Item
+    name='Resume'
+    key='Resume'
+    active={false}
+    onClick={()=>window.open(resumeURL, '_blank')}
+  />
+  ));
 
 	return (
 		<Scrollspy

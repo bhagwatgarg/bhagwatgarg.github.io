@@ -18,7 +18,7 @@ const Connect = (props) => {
       setHeight(
         window.innerHeight - document.getElementById("nav-bar").offsetHeight
       );
-			if (window.innerWidth <= 900) {
+			if (window.innerWidth <= 1100) {
 				props.setSideDrawer(true);
 			} else {
 				props.setSideDrawer(false);
@@ -32,7 +32,7 @@ const Connect = (props) => {
     init=true;
     return ()=>window.onresize=null;
   }, []);
-    
+
 	return (
 		<section id="connect-with-me" style={{height:height}}>
       <div className='contact-card'>
