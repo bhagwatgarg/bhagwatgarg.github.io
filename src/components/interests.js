@@ -10,10 +10,10 @@ const Interests = (props) => {
 			<div className="main-section-content">
       <div className='skills-image main-section-picture'></div>
 				<section className="main-section-para">
-					I am currently working on expanding my machine learning skills.
+					I have been exploring the field of blockchain for  while and have worked as a Summer Intern at <section className='main-section-highlight'>National Blockchain Project </section>.
+					I have also worked on a couple of machine learning projects.
 					Sometimes, I indulge myself in competitive programming by taking part
-					in CodeForces contests. I also like to develop applications for
-					android and web.
+					in CodeForces contests. I also like to develop applications for the web.
 				</section>
 			</div>
 		</section>

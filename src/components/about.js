@@ -15,8 +15,8 @@ const About = (props) => {
 					I have always been fascinated by the world of computers. I had always
 					wished to know what happens under the hood which makes it such a
 					wonderful machine. Therefore, I chose to make a career in the same.
-					Currently I am a <section className='main-section-highlight'>2nd Year Undergraduate</section> pursuing a degree in <section className='main-section-highlight'>Computer
-					Science at IIT Kanpur</section>. I am also the Secretary at Programming Club, IIT Kanpur.
+					Currently I am a <section className='main-section-highlight'>3rd Year Undergraduate</section> pursuing a degree in <section className='main-section-highlight'>Computer
+					Science at IIT Kanpur</section>.
 				</p>
 			</article>
 		</section>

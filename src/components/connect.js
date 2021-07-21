@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useContext } from "react";
 import "./connect.css";
 import { Icon, Button } from "semantic-ui-react";
-import {FacebookFilled, GithubFilled, InstagramFilled, MailFilled} from '@ant-design/icons'
+import {FacebookFilled, GithubFilled, InstagramFilled, MailFilled, LinkedinFilled} from '@ant-design/icons'
 import HeightContext from "../util/change-height";
 
 const Connect = (props) => {
@@ -42,10 +42,10 @@ const Connect = (props) => {
         <h4>IIT Kanpur</h4>
       </article>
       <div className='social'>
-        <a target='_blank' href='https://www.facebook.com/gargbhagwat'><FacebookFilled style={style}  /></a>
+        <a target='_blank' href='https://linkedin.com/in/bhagwatgarg' ><LinkedinFilled style={style} /></a>
         <a target='_blank' href='https://www.github.com/bhagwatgarg' ><GithubFilled style={style} /></a>
+        <a target='_blank' href='mailto:bhagwatgarg10@gmail.com' ><MailFilled style={style} /></a>
         <a target='_blank' href='https://www.instagram.com/bhagwatgarg' ><InstagramFilled style={style} /></a>
-        <a target='_blank' href='mailto:b.garg2013@gmail.com' ><MailFilled style={style} /></a>
       </div>
       </div>
 		</section>
